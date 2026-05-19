@@ -1,2 +1,2 @@
 # portfolio
-simple portfolio created using html, css and javascript;
+simple personalised webpage created using html, css and javascript;
