@@ -13,7 +13,7 @@ html, body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
+  background-color: #685AFF;
 }
 
 #nav li {
@@ -26,16 +26,20 @@ html, body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
 
 #nav li a:hover {
-  background-color: #111111;
+  background-color: #30364F;
 }
 
 #page1 {
     padding: 20px;
-    color: gold;
-    background-color: green;
+    color: #E4D329;
+    background-color: #0D0B61;
     font-style: oblique;
     width: 100vw;
     height: 100vh;
@@ -44,22 +48,36 @@ html, body {
     top: 0;
 }
 
-
-#page1 > div {
-    margin-top: 20px;
+#page1 h1{
     padding-top: 5%;
     padding-left: 2%;
     padding-right: 40%;
-    color: black;
-    font-style: oblique;
-    margin-right: 150px;
-    font-size: xx-large;
+    color: #E4D329;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: xx-large;  
+}
+
+#page1 > div {
+    margin-top: 10px;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 10%;
+    color: whitesmoke;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    font-style: normal;
+    margin-right: 50px;
+    font-size: x-large;
 }
 
 #page2 {
     padding: 20px;
     color: white;
-    background-color: black;
+    background-color: #294669;
     font-style: oblique;
     width: 100vw;
     height: 100vh;
@@ -68,35 +86,69 @@ html, body {
     top: 0;
 }
 
+#page2 h1{
+    padding-left: 2%;
+    padding-right: 40%;
+    color: #E4D329;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: xx-large;  
+}
+
 #hlist {
     list-style-type: none;
-    margin-top: 3px;
-    padding-top: 1%;
+    margin-top: 2px;
     padding-left: 2%;
-    padding-right: 10%;
-    color: white;
-    font-style: oblique;
-    font-size: large;
+    padding-right: 5%;
+    color: whitesmoke;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: x-large;
 }
 
 #hlist li{
-    padding: 10px;
+    padding: 5px;
 }
 
 #hlist li table {
     width: 100%;
     border: 3px solid white;
+    border-radius: 10px;
 
 }
 
 #hlist li table div{
   text-align: left;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 1000;
+  font-style: normal;
+  font-size: large;
+}
+
+#t1 :hover{
+  background-color: limegreen;
+}
+#t2 :hover{
+  background-color: #2C3947;
+}
+
+#t3 :hover{
+  background-color: #E87F24;
+}
+
+#t4 :hover{
+  background-color: #D92243;
 }
 
 #page3 {
     padding: 20px;
     color: white;
-    background-color: red;
+    background-color: #478B8D;
     font-style: oblique;
     width: 100vw;
     height: 100vh;
@@ -106,36 +158,53 @@ html, body {
 }
 
 #page3 h1{
-    padding-top: 5%;
     padding-left: 2%;
     padding-right: 40%;
-    color: white;
-    font-style: oblique;
+    color: #E4D329;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    font-style: normal;
     font-size: xx-large;  
 }
 
 #skills {
-    list-style-type: none;
-    margin-top: 3px;
-    padding-top: 1%;
-    padding-left: 2%;
-    padding-right: 10%;
-    color: white;
-    font-style: oblique;
-    font-size: large;
+  width: 100vw;
+  height: 10vh;
+  margin-bottom: 10px;
+  border-collapse: collapse;
+  font-size: x-large;
+}
+
+#skills tr td {
+  text-align: center;
+}
+
+#skills tr td div{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 1000;
+  font-style: normal;
+  font-size: x-large;
+}
+
+#skills tr td div:hover{
+  color: lightskyblue;
 }
 
 #contents{
-  background-color: white;
+  background-color: #294669;
   margin-left: 25px;
   width:90vw;
   height: 60vh;
+  border: #2C3947 solid 10px;
+  border-radius: 20px;
 }
 
 #page4 {
     padding: 20px;
     color: white;
-    background-color: blue;
+    background-color: #294669;
     font-style: oblique;
     width: 100vw;
     height: 100vh;
@@ -144,8 +213,15 @@ html, body {
     top: 0;
 }
 
-#page4 div{
-  font-size: x-large;
+#page4 h1{
+    padding-left: 2%;
+    padding-right: 40%;
+    color: #E4D329;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: xx-large;  
 }
 
 .container {
@@ -155,18 +231,23 @@ html, body {
 
 .t{
   padding-right: 75px;
+  padding-left: 2%;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 1000;
+  font-style: normal;
+  font-size: large; 
 }
 
 .i{
   margin-right: 25px;
-  border: whitesmoke solid 5px;
-  border-radius: 2px;
+  border: white solid 3px;
 }
 
 #page5 {
     padding: 20px;
     color: white;
-    background-color: purple;
+    background-color: #0D0B61;
     font-style: oblique;
     width: 100vw;
     height: 100vh;
@@ -175,7 +256,48 @@ html, body {
     top: 0;
 }
 
+#page5 h1{
+    padding-left: 2%;
+    padding-right: 40%;
+    margin-bottom: 80px;
+    color: #E4D329;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: xx-large;   
+}
+
+#page5 h2{
+  margin-top: 40px;
+  padding-left: 2%;
+  padding-right: 40%;
+  color: #478B8D;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 1000;
+  font-style: normal;
+  font-size: x-large;  
+}
+
 #page5 a{
+  padding-left: 2%;
   color: white;
   text-decoration: none;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 1000;
+  font-style: normal; 
+  font-size: x-large;
+}
+
+#page5 p{
+  padding-left: 2%;
+  color: white;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 1000;
+  font-style: normal;
+
+  font-size: x-large;
 }
