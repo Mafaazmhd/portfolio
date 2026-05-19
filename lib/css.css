@@ -1,0 +1,94 @@
+html, body {
+  margin: 0;
+  padding: 0;
+
+}
+
+#nav {
+  list-style-type: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+#nav li {
+  float: left;
+}
+
+#nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#nav li a:hover {
+  background-color: #111111;
+}
+
+#page1 {
+    padding: 20px;
+    color: gold;
+    background-color: green;
+    font-style: oblique;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    left: 0;
+    top: 0;
+}
+
+
+#page1 > div {
+    margin-top: 20px;
+    padding-top: 5%;
+    padding-left: 2%;
+    padding-right: 40%;
+    color: black;
+    font-style: oblique;
+    margin-right: 250px;
+    font-size: xx-large;
+}
+
+#page2 {
+    padding: 20px;
+    color: white;
+    background-color: black;
+    font-style: oblique;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    left: 0;
+    top: 0;
+}
+
+#hlist {
+    list-style-type: none;
+    margin-top: 3px;
+    padding-top: 1%;
+    padding-left: 2%;
+    padding-right: 10%;
+    color: white;
+    font-style: oblique;
+    font-size: large;
+}
+
+#hlist li{
+    padding: 10px;
+}
+
+#hlist li table {
+    width: 100%;
+    border: 3px solid white;
+
+}
+
+#hlist li table div{
+  text-align: left;
+}
